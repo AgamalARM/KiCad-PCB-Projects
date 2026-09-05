@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PWM Generator-rescue")(type "KiCad")(uri "${KIPRJMOD}/PWM Generator-rescue.kicad_sym")(options "")(descr ""))
+)
