@@ -341,7 +341,7 @@
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW1"
-			(at 3.25 -2 360)
+			(at 3.25 -2 0)
 			(layer "F.SilkS")
 			(uuid "3a72df07-4725-4282-863f-d33442a61e6b")
 			(effects
@@ -352,7 +352,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 3.75 6.7 360)
+			(at 3.75 6.7 0)
 			(layer "F.Fab")
 			(uuid "9f39d208-04e8-4edc-bec9-d392e3412a59")
 			(effects
@@ -628,7 +628,7 @@
 			(uuid "da45d83f-7aa2-4c34-8d94-1422884dfc62")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.25 2.25 360)
+			(at 3.25 2.25 0)
 			(layer "F.Fab")
 			(uuid "b5e7a279-9b9f-4e9d-9c62-ead4058d60c5")
 			(effects
@@ -972,7 +972,7 @@
 		(descr "http://www.keyelco.com/product-pdf.cfm?p=14028")
 		(tags "Keystone type 1058 coin cell retainer")
 		(property "Reference" "BT1"
-			(at 0 7.62 360)
+			(at 0 7.62 0)
 			(layer "F.SilkS")
 			(uuid "cfc3e047-6ef6-491e-8272-e88e072f44bb")
 			(effects
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 0 -9.398 360)
+			(at 0 -9.398 0)
 			(layer "F.Fab")
 			(uuid "2e84590e-238a-4cd6-937c-c1649f592c7c")
 			(effects
@@ -1498,7 +1498,7 @@
 			(uuid "a342b9aa-c4f7-4d68-9cd6-4330c84c7be1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d649b7db-cac7-4a4c-aa3b-195de063c62c")
 			(effects
@@ -1539,15 +1539,56 @@
 		)
 	)
 	(gr_arc
-		(start 51.000001 67)
-		(mid 70.527065 49.073744)
-		(end 94.799748 59.727088)
+		(start 96.423753 81.179863)
+		(mid 69.182743 93.509728)
+		(end 49.5 71)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6656eb94-32b5-40c2-b5a2-f3c340afe76c")
+		(uuid "630110c7-9c82-40f1-9d4f-fa1fc492ef18")
+	)
+	(gr_line
+		(start 130 81.5)
+		(end 96.423753 81.179863)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "89de04f7-0ace-4f02-8d38-018946127505")
+	)
+	(gr_arc
+		(start 49.5 71)
+		(mid 69.182743 48.490272)
+		(end 96.423753 60.820137)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb676a16-c096-4b43-90db-db69b4c8c09b")
+	)
+	(gr_line
+		(start 130 61)
+		(end 130 81.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db48112e-22ae-447f-b2b3-19658f0b52e9")
+	)
+	(gr_line
+		(start 96.423753 60.820137)
+		(end 130 61)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f703e179-fcf3-49ac-851e-0ddba1be3c06")
 	)
 	(segment
 		(start 89.18 73)
