@@ -1,0 +1,99 @@
+(footprint "CAPACITOR4700"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.62 -11.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6a38b332-0c55-4546-b82d-62b5ade3b6d9")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "CAPACITOR4700"
+		(at 8.89 11.43 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2908eb9-e92c-43f3-bdcc-c09a035423ea")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df705fc4-cfae-43e8-a1bf-49d1b22749e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2a8c992-e78b-49c0-8c1d-02c6ecc32435")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d61bd9-8d24-4b64-b0c1-a41e160475be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 12.7 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3cd66b1b-463e-447f-805d-954a1a5e640b")
+	)
+	(pad "+" thru_hole oval
+		(at -6.35 0)
+		(size 2.616 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "de435adf-beeb-48c0-977e-9de79431d659")
+	)
+	(pad "-" thru_hole oval
+		(at 6.35 0)
+		(size 2.616 1.308)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d127b233-e78a-4801-956e-c09ab8702f96")
+	)
+)
