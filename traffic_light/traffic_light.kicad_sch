@@ -866,7 +866,7 @@
 		(dnp no)
 		(uuid "08f5a13f-f531-41b7-9535-ccd6588a95db")
 		(property "Reference" "R1"
-			(at 107.696 64.262 90)
+			(at 118.11 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +874,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 107.696 66.802 90)
+			(at 118.11 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1133,7 @@
 		(dnp no)
 		(uuid "79f10452-e4d1-449e-a439-327f791b0c09")
 		(property "Reference" "D2"
-			(at 147.574 78.74 0)
+			(at 138.43 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1141,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 147.574 81.28 0)
+			(at 138.43 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
