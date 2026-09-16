@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8a70a951-ac46-4c61-9242-17d0dfff5fb6")
+	(paper "A4")
+	(title_block
+		(title "AC_DC Power Supply")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
