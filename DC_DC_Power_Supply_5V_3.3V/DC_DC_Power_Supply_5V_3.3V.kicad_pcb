@@ -113,9 +113,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -3179,16 +3179,29 @@
 		(layer "Edge.Cuts")
 		(uuid "07d6ca5a-24e1-4ebf-9e98-b621fd3eef25")
 	)
-	(gr_text "Eng.Ahmed Gamal\nV1.0"
-		(at 112.22 146.17 0)
+	(gr_text "5v to 3.3v"
+		(at 115.66 146.21 0)
 		(layer "F.SilkS")
-		(uuid "aa61a38c-bfb4-4213-b4f3-001df43666a5")
+		(uuid "95eea3a6-1b21-4b34-903b-e0c1d3d1ac21")
 		(effects
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
 			)
-			(justify left bottom)
+			(justify bottom)
+		)
+	)
+	(gr_text "Simple Voltage Regulator\n"
+		(at 116.71 144.62 0)
+		(layer "F.SilkS" knockout)
+		(uuid "aa61a38c-bfb4-4213-b4f3-001df43666a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify bottom)
 		)
 	)
 	(via

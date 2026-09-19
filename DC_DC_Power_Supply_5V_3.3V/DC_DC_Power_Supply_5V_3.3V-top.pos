@@ -1,0 +1,14 @@
+### Footprint positions - created on 2026-09-19T18:32:37+0300 ###
+### Printed by KiCad version 8.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                   Package                                                             PosX       PosY       Rot  Side
+C1        22u                   CP_Elec_6.3x7.7                                                 100.8300  -129.7300   90.0000  top
+C2        100n                  C_0402_1005Metric                                               105.4700  -130.2900   90.0000  top
+C3        100n                  C_0402_1005Metric                                               105.2900  -137.7100  -90.0000  top
+C4        22u                   CP_Elec_6.3x7.7                                                 100.9100  -140.0100  -90.0000  top
+C5        22u                   CP_Elec_6.3x7.7                                                 122.8800  -134.9000   90.0000  top
+J1        Screw_Terminal_01x02  TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal   134.6950  -137.4450   90.0000  top
+J2        USB_B_Micro           USB_Micro-B_Molex_47346-0001                                     92.5000  -134.9000  -90.0000  top
+U2        AMS1117CD-3.3         TO-252-3_TabPin2                                                112.7900  -133.8200    0.0000  top
+## End
