@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AC_DC_Power_Supply.kicad_pro",
+    "filename": "DC_DC_Power_Supply_5V_3.3V.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -575,14 +575,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -596,7 +588,7 @@
   },
   "sheets": [
     [
-      "8a70a951-ac46-4c61-9242-17d0dfff5fb6",
+      "a8aa4c08-22ae-47d6-816b-cf6dc8fb313c",
       "Root"
     ]
   ],
