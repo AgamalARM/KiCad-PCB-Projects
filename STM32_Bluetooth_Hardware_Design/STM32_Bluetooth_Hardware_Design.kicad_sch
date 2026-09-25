@@ -10,6 +10,173 @@
 		(rev "V1.0")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1880,6 +2047,151 @@
 				)
 			)
 		)
+		(symbol "My_Lib:DLF162500LT-5028A1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FLT"
+				(at -0.254 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DLF162500LT-5028A1"
+				(at 0.508 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "My_Lib:DLF162500LT-5028A1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DLF162500LT-5028A1_0_0"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DLF162500LT-5028A1_1_1"
+				(rectangle
+					(start -5.334 3.302)
+					(end 6.604 -4.064)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "2.4GHz-2.5GHz LPF"
+					(at 0.508 2.286 0)
+					(effects
+						(font
+							(size 0.6 0.6)
+							(color 255 23 110 1)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -2194,6 +2506,12 @@
 		(uuid "6294db59-3f66-47af-aecf-753b94666fa3")
 	)
 	(junction
+		(at 261.62 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "659bfdf4-86d8-49f3-a3d8-b2a9e7b37792")
+	)
+	(junction
 		(at 146.05 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2418,6 +2736,26 @@
 			(type default)
 		)
 		(uuid "22cb36b6-1493-40bb-a427-05b3acf0f31b")
+	)
+	(wire
+		(pts
+			(xy 270.51 105.41) (xy 269.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23edf0a4-4069-46e3-a773-6c80c34e986c")
+	)
+	(wire
+		(pts
+			(xy 261.62 111.76) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bacf4c-dafc-4062-8e33-59ab568acfcd")
 	)
 	(wire
 		(pts
@@ -3001,6 +3339,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 115.57) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d3f045-4b5e-4ffe-b4ac-3716b86621e4")
+	)
+	(wire
+		(pts
 			(xy 207.01 133.35) (xy 207.01 137.16)
 		)
 		(stroke
@@ -3138,6 +3486,16 @@
 			(type default)
 		)
 		(uuid "c2454a51-d21a-47f0-9556-5b2e9dc8dafb")
+	)
+	(wire
+		(pts
+			(xy 275.59 113.03) (xy 275.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc63b4e6-8875-4148-b2dd-d053a447098e")
 	)
 	(wire
 		(pts
@@ -3281,6 +3639,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 111.76) (xy 259.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7cbd64-539e-4b5e-b35e-1bae7301547a")
+	)
+	(wire
+		(pts
 			(xy 203.2 96.52) (xy 203.2 100.33)
 		)
 		(stroke
@@ -3321,6 +3689,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 114.3) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84e6f74-a042-4fcb-b229-367228b20131")
+	)
+	(wire
+		(pts
 			(xy 124.46 30.48) (xy 134.62 30.48)
 		)
 		(stroke
@@ -3351,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 107.95) (xy 270.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd73e498-aa66-4446-8c82-344402ee814f")
+	)
+	(wire
+		(pts
 			(xy 171.45 92.71) (xy 194.31 92.71)
 		)
 		(stroke
@@ -3358,6 +3746,17 @@
 			(type default)
 		)
 		(uuid "fef965a1-45c1-408c-b233-6c0433643ade")
+	)
+	(label "RF_ANT"
+		(at 270.51 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "042bad59-61cc-4cf5-906e-c3648e9f3b83")
 	)
 	(label "HSE_OUT"
 		(at 172.72 95.25 0)
@@ -3369,6 +3768,17 @@
 			(justify left bottom)
 		)
 		(uuid "2af1b7f6-4b6f-4675-b143-0e2fa56156bb")
+	)
+	(label "RF_MATCH"
+		(at 238.76 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39db648b-6707-4de3-b038-b6bd108ad201")
 	)
 	(label "SMPSLX"
 		(at 172.72 87.63 0)
@@ -3391,6 +3801,17 @@
 			(justify left bottom)
 		)
 		(uuid "aeb9b7be-d3bf-4bf5-bfb5-ab0af1a45aa4")
+	)
+	(label "RF"
+		(at 173.99 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b38dffc2-b3a6-46ca-b531-e429d2c6656e")
 	)
 	(label "SMPSFB"
 		(at 172.72 100.33 0)
@@ -3435,6 +3856,148 @@
 			(justify left bottom)
 		)
 		(uuid "f8cce6b8-7d63-41c1-af25-97d52488b00f")
+	)
+	(symbol
+		(lib_id "My_Lib:DLF162500LT-5028A1")
+		(at 260.35 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f327cc-44fb-43db-be32-192c07701e8f")
+		(property "Reference" "FLT1"
+			(at 260.985 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DLF162500LT-5028A1"
+			(at 260.985 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My_Lib:DLF162500LT-5028A1"
+			(at 260.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf"
+			(at 260.35 105.41 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "917272bf-ddd5-4855-ba6c-72d4dfe5e223")
+		)
+		(pin "1"
+			(uuid "f83cb2d3-7d2c-4146-bb8b-eecbea6e3e3a")
+		)
+		(pin "2"
+			(uuid "38d9d2c3-b7d8-482e-950c-24c00c9a4286")
+		)
+		(pin "3"
+			(uuid "1dfbde92-b9d2-4443-b926-6ab619cc184c")
+		)
+		(instances
+			(project ""
+				(path "/1adfc682-48fe-4df5-9440-d273fc4d6b2e"
+					(reference "FLT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191e9682-151a-4c90-aa89-594f88063d9c")
+		(property "Reference" "#PWR013"
+			(at 275.59 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0356084-e6d9-4daa-8e5c-f9e1d4295fb4")
+		)
+		(instances
+			(project "STM32_Bluetooth_Hardware_Design"
+				(path "/1adfc682-48fe-4df5-9440-d273fc4d6b2e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4473,6 +5036,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 261.62 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fbcc7f0-2b35-4b8a-94b8-7a9c1e1148b0")
+		(property "Reference" "#PWR012"
+			(at 261.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e253c160-afee-4644-968e-fddbf8b2cfb2")
+		)
+		(instances
+			(project "STM32_Bluetooth_Hardware_Design"
+				(path "/1adfc682-48fe-4df5-9440-d273fc4d6b2e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 207.01 128.27 0)
 		(unit 1)
@@ -4956,6 +5586,76 @@
 			(project ""
 				(path "/1adfc682-48fe-4df5-9440-d273fc4d6b2e"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 275.59 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e7cd9af-1fe8-4182-8b69-3605af2f6eb1")
+		(property "Reference" "J1"
+			(at 279.4 106.9731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 279.4 109.5131 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 275.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c1604d2-a257-4fbb-9712-e551c2df4282")
+		)
+		(pin "2"
+			(uuid "10826268-ef67-4f2a-a7a6-06a5c2e3b2b5")
+		)
+		(instances
+			(project ""
+				(path "/1adfc682-48fe-4df5-9440-d273fc4d6b2e"
+					(reference "J1")
 					(unit 1)
 				)
 			)
