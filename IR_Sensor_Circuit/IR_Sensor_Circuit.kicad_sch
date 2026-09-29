@@ -1610,7 +1610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey"
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRBlack"
 			(at 81.28 60.96 0)
 			(effects
 				(font
