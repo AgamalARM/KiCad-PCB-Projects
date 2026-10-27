@@ -3682,7 +3682,7 @@
 		)
 		(uuid "513472cc-9db5-4a7e-b0ef-881f1ad3c06b")
 	)
-	(text_box "EEPROM"
+	(text_box "EEPROM as Static Address\n000 , 111"
 		(exclude_from_sim no)
 		(at 18.796 104.14 0)
 		(size 96.52 57.658)
